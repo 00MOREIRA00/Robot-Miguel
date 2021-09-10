@@ -1,0 +1,349 @@
+/*
+*
+*DESENVOLVIDO POR @03TN 
+*
+*/
+
+
+/*---------- Layout ----------*/
+html, body, #home, #quem, #sobre{
+	height: 100%;
+}
+
+body{
+	background: url(../imagens/fundo1.jpg);/*Background da página*/
+	background-attachment: fixed; /*Usado para fazer o background não se locomover*/
+	font-family: Heletica, Arial, sans-serif;
+}
+
+p{
+	text-align: justify;	
+}
+
+/* Mudando configs do H1 titulo */
+.navbar-light .navbar-brand { 
+    color: white;
+    font-size: 40px;
+    height: 90px;
+}
+.navbar-light .navbar-brand:hover { 
+    color: #00BFFF;
+    font-size: 40px;
+}
+
+
+
+
+/*---------- Capa ----------*/
+.capa{
+	text-align: center;
+}
+
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	text-transform: uppercase;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 15px;
+	transition: background 0.4s, color 0.4s;
+}
+
+
+
+
+
+/*---------- Tipografia ----------*/
+.h1, h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+
+
+/*---------- Barra de Navegação ----------*/
+/*Criando classe para formatar a Barra de Navegação*/
+nav.navbar-fundo {
+	background: black;
+	padding: 15px 0px;
+	border-radius: 3px;
+}
+
+/*Modificando as configs pré estabelecidas para os links*/
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00BFFF;
+    font-size: 15px;
+}
+
+
+
+
+/*---------- Rodapé ----------*/
+ footer{
+ 	background: #000;
+ 	padding: 50px 0px 20px 0px;
+ 	position: relative;
+ }
+
+ footer h4{
+ 	color: white;
+ 	font-size: 0.8em;
+ 	text-transform: uppercase;
+ }
+
+ footer .navbar-nav a{
+ 	color: white;
+ 	font-size: 0.8em;
+ }
+
+ footer .navbar-nav a:hover{
+ 	color: #9bf0e1;
+ 	text-decoration: none;
+ }
+
+footer ul{
+	list-style: none;
+}
+
+footer li{
+	float: right;
+	margin: 0px 5px;
+}
+
+
+
+
+
+												/*Quem somos*/
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: url(../imagens/fundo1.jpg);
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+
+/*Tipografia*/
+.h3, h3 {
+    font-size: 2.0rem;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+
+
+
+                                                    /*Sobre*/
+.carousel-inner{
+    min-height: 100px;
+}
+
+
+.titulo-carrocel{
+    color: black;
+    font-size: 25px;
+}
+
+
+.botao-carrocel{
+    color: black;
+    border: 2px solid black;
+}
+
+.botao-carrocel:hover{
+    color: white;
+    border: 2px solid black;
+}
+
+
+.carossel{
+    border: 5px solid black; 
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------- Media Query ----------*/
+/*Extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98px) {
+
+    .h1, h1 {
+    padding-top: 300px;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 50px;
+    letter-spacing: -0.05em;
+    color: white;
+}
+
+#home{
+    margin-bottom: 200px;
+}
+
+.somos{
+    margin-top: 300px;
+}
+
+.subir{
+    margin-top: 780px;
+}
+ .descer{
+   margin-top: 300px; 
+ }
+
+.botao-carrocel{
+    color: black;
+    border: 2px solid black;
+}
+
+.ajuste{
+    max-height: 10px;
+    margin-bottom: 800px;
+}
+
+
+.carossel{
+    margin-top: -300px;
+    border: 0px solid black; 
+    border-radius: 0px;
+}
+
+.rodape{
+    margin-top: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DESENVOLVIDO POR 03TN - Roberto Neto*/
